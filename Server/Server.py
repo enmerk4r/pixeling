@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, Blueprint
 import os
 import json
+import random
 # from Blueprints.post_route import PostRoute
 
 app = Flask(__name__)
@@ -12,11 +13,14 @@ def upload_model():
 
     json_data = request.get_json()
     location = json_data["save_location"]
+    signature_location = json_data["signature_location"]
     mesh = json_data["mesh"]
 
     try:
         with open(location, "w") as f:
             f.write(json.dumps(mesh))
+        with open(signature_location, "w") as s:
+            s.write(str(random.randint(0, 99999999)))
         return jsonify({"saved": True})
     except Exception as e:
         return jsonify({"saved": False, "reason": str(e)})
