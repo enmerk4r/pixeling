@@ -41,10 +41,11 @@ We noticed it works best with at least a `g4dn.xlarge`, but if you need more per
 8. https://docs.unrealengine.com/4.26/en-US/SharingAndReleasing/PixelStreaming/PixelStreamingIntro/ 
 9. Make sure you go through these steps carefully. For *section 2 - Start the Servers* for us that SignallingWebserver was actually saved under: `C:\Program Files\Epic Games\UE_4.27\Samples\PixelStreaming\WebServers\SignallingWebServer\platform_scripts\cmd` and instead of running the `run.bat` file, on the AWS instance you want to run the `runAWS_WithTURN.bat` file.
 10. This will spin up the Signalling Server and you'll see the following in the console window:
-
-> WebSocket listening to Streamer connections on :8888
-> WebSocket listening to Players connections on :80
-> Http listening on : 80
+```
+WebSocket listening to Streamer connections on :8888
+WebSocket listening to Players connections on :80
+Http listening on : 80
+```
 
 11. And you're good to go! how you can start the Packaged Unreal Engine application with your project loaded (the amended shortcut to the .exe file - in step 8)
 
