@@ -10,6 +10,7 @@ Pixeling is an experiment in pixel streaming that connects Rhino / Grasshopper t
 * Daniel Escobar
 * Amit Nambiar
 * Sergey Pigach
+* Jeroen Janssen
 
 ### Rhino Bridge
 ![](https://github.com/enmerk4r/pixeling/blob/main/Misc/Demo_1.gif)
@@ -19,3 +20,6 @@ Pixeling is an experiment in pixel streaming that connects Rhino / Grasshopper t
 
 ### Grasshopper Converter
 ![](https://github.com/enmerk4r/pixeling/blob/main/Misc/image%20(24).png)
+
+### Remote Pixel Streaming
+The Unreal Project is deployed on a remote instance of AWS, enabling Pixel Streaming through the browser for multiple participants to call into the model vis.
