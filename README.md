@@ -38,7 +38,7 @@ We noticed it works best with at least a `g4dn.xlarge`, but if you need more per
 6. Install [Unreal Engine](https://www.unrealengine.com/en-US/) (at least v4.27.1)
 7. Install [Node.js](https://nodejs.org/en/) including the additional required packages - which will install a bunch of different stuff such as Python and [Chocolatey](https://chocolatey.org/)
 
-#### We are very greatful for these helpful resources:
+#### We are very grateful for these helpful resources:
 7. https://github.com/aws-samples/deploying-unreal-engine-pixel-streaming-server-on-ec2
 8. https://docs.unrealengine.com/4.26/en-US/SharingAndReleasing/PixelStreaming/PixelStreamingIntro/ 
 9. Make sure you go through these steps carefully. For *section 2 - Start the Servers* for us that SignallingWebserver was actually saved under: `C:\Program Files\Epic Games\UE_4.27\Samples\PixelStreaming\WebServers\SignallingWebServer\platform_scripts\cmd` and instead of running the `run.bat` file, on the AWS instance you want to run the `runAWS_WithTURN.bat` file.
