@@ -49,7 +49,7 @@ WebSocket listening to Players connections on :80
 Http listening on : 80
 ```
 
-11. And you're good to go! how you can start the Packaged Unreal Engine application with your project loaded (the amended shortcut to the .exe file - in step 8)
+11. And you're good to go! Now you can start the Packaged Unreal Engine application with your project loaded (the amended shortcut to the .exe file - see the details in the link in step 8)
 
 12. On the AWS instance you can now browse to http://127.0.0.1 to see the model in your local browser (on the remote instance that is).
 13. And the rest of the world can now access the `Elastic IP address` you set up in step 4! **Hooray!**
