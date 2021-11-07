@@ -23,7 +23,7 @@ Pixeling is an experiment in pixel streaming that connects Rhino / Grasshopper t
 
 ### Remote Pixel Streaming
 The Unreal Project is deployed on a remote instance of AWS, enabling Pixel Streaming through the browser for multiple participants to call into the model vis, from any device!.
-![](https://github.com/enmerk4r/pixeling/blob/main/Misc/Demo_1.gif)
+![](https://github.com/enmerk4r/pixeling/blob/main/Misc/IOS.mp4)
 
 There's a few steps to go through to set this up:
 #### Prerequisites:
