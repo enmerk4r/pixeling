@@ -1,3 +1,5 @@
+![Pixeling](https://user-images.githubusercontent.com/92090123/140653652-8ec32427-633b-417a-bf48-8609caeb9383.gif)
+
 ## Pixeling
 Pixeling is an experiment in pixel streaming that connects Rhino / Grasshopper to the Unreal Engine. This project has been developed by a team of collaborators for the 2021 AEC Tech Hackathon hosted by CORE Studio at Thornton Tomasetti.
 
