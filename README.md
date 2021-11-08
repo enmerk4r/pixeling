@@ -17,7 +17,7 @@ Pixeling is an experiment in pixel streaming that connects Rhino / Grasshopper t
 ### Rhino Bridge
 ![](https://github.com/enmerk4r/pixeling/blob/main/Misc/Demo_1.gif)
 
-### Unity Blueprint
+### Unreal Blueprint
 ![](https://github.com/enmerk4r/pixeling/blob/main/Misc/image%20(23).png)
 
 ### Grasshopper Converter
